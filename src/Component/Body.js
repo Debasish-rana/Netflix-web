@@ -8,11 +8,11 @@ import Browser from "./Browser";
 const Body = () => {
   const appRouter = createBrowserRouter([
     {
-      path: "/",
+      path: "/netflix-web",
       element: <Loginpage />,
     },
     {
-      path: "/Browser",
+      path: "/netflix-web/Browser",
       element: <Browser />,
     },
   ]);
