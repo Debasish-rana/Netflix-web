@@ -18,7 +18,7 @@ Process of creating a app ---------
 16 - implement signout feature
 17 - create Update a user's profile using firebase
 18 - Bugfix # Signup user display name and profile picture update
-19 - Bugfix # If the user is not logged in redirect to the logi page
+19 - Bugfix # If the user is not logged in redirect to the login page
 20 - create a account in TMDB to create apikey then fetch api in the documentation page
 21 - get data from TMDB api now playing movie api
 22 - create custom hooks for now playing movies
