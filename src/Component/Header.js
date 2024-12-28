@@ -24,7 +24,7 @@ const Header = () => {
     signOut(auth)
       .then(() => {
         // Sign-out successful.
-        navigate("/");
+        navigate("/netflix-web/");
       })
       .catch((error) => {
         // An error happened.
@@ -46,11 +46,11 @@ const Header = () => {
             photoURL: photoURL,
           })
         );
-        navigate("/browser");
+        navigate("/netflix-web/browser");
       } else {
         // User is signed out
         dispatch(removeUser());
-        navigate("/");
+        navigate("/netflix-web/");
       }
     });
   }, []);

@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+Process of creating a app ---------
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1 - Setup create react app
+2 - Configure taiwind css
+3 - Header
+4 - Routing of App
+5 - Login Form
+6 - Sign up From
+7 - From Validation
+8 - useRef Hook
+9 - Firebase Setup
+10 - Deploying Our App to production 
+11 - Create a signup User Account(using modular api)
+12 - Create a signin User Account
+13 - Setup reduxtoolkit  
+14 - We created our redux store with userSlice
+15 - Navigate Browser page using useNavigate
+16 - implement signout feature
+17 - create Update a user's profile using firebase
+18 - Bugfix # Signup user display name and profile picture update
+19 - Bugfix # If the user is not logged in redirect to the logi page
+20 - create a account in TMDB to create apikey then fetch api in the documentation page
+21 - get data from TMDB api now playing movie api
+22 - create custom hooks for now playing movies
+23 - create movie slice
+24 - update store with movies data
+25 - create maincontainer & secondarycontainer
+26 - fetch data for movie tailor video
+27 - update store with tailer video data
+28 - Embedded the youtube video make it autoplay and mute
+29 - Build secondary component 
+30 - Build video background 
+31 - Build video title
+32 - Build movie list
+33 - Build movie card
+34 - added TMDB image URL in constant file
+35 - Made the Browser amzing with tailwind css
+36 - create custom hooks useNowplaying,usePopular,useToprated,useUpcoming
+37 - Build Gptsearch page
+38 - Gpt searchbar
+39 - [*]Add multilanguage feature in GPT page
+40 - Next we create api key in openai platform website
